@@ -13,8 +13,7 @@
 | 3 | 3_4 | Linear SVC |
 | 4 | 4_1 | 回帰問題の精度 |
 | 4 | 4_2 | 分類問題の精度 |
-| 4 | 4_3 | Hold-Out |
-| 4 | 4_4 | Cross Validation |
+| 4 | 4_3 | Validation |
 | 5 | 5_1 | 決定木 |
 | 5 | 5_2 | Random Forest |
 | 5 | 5_3 | Adaboost |
