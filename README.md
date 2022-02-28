@@ -30,3 +30,4 @@
 | 8 | 8_3 | Topic Modeling |
 | 8 | 8_4 | One Class SVM |
 | 8 | 8_5 | Local Outlier Factor |
+| 9 | 9_1 | タイタニック号生存予測問題 |
