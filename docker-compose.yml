@@ -1,6 +1,8 @@
 version: "3.9"
 services:
   py3:
+    image: ml-works
+    container_name: ml-works
     build:
       context: .
       dockerfile: ./docker/Dockerfile
