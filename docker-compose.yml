@@ -5,6 +5,8 @@ services:
       context: .
       dockerfile: ./docker/Dockerfile
     restart: always
+    environment:
+      - LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1
     entrypoint: >
       jupyter-lab
       --allow-root
