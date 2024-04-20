@@ -31,3 +31,22 @@
 | 8 | 8_4 | One Class SVM |
 | 8 | 8_5 | Local Outlier Factor |
 | 9 | 9_1 | タイタニック号生存予測問題 |
+
+## 環境設定
+
+- 立ち上げ
+```
+make build
+make up
+```
+
+- 終了
+```
+make down
+```
+
+- テスト
+  - 環境を立ち上げてから実行
+```
+make test
+```
