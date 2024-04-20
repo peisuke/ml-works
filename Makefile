@@ -13,3 +13,4 @@ down:
 test:
 	docker cp tests/test_notebook.sh ml-works:/workdir/test_notebook.sh
 	docker exec ml-works bash /workdir/test_notebook.sh
+	docker exec ml-works rm /workdir/test_notebook.sh
